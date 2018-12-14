@@ -44,7 +44,7 @@ export class AppComponent {
     getRows: (params: IGetRowsParams) => {
       this.apiService().subscribe(data => {
         params.successCallback(
-          data,
+          [data],
           101
         );
       })
