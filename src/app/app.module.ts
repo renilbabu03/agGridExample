@@ -14,7 +14,8 @@ import { AppComponent } from './app.component';
     HttpClientModule,
     BrowserModule,
     BrowserAnimationsModule,
-    AgGridModule.withComponents([])
+    AgGridModule.withComponents([]),
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
